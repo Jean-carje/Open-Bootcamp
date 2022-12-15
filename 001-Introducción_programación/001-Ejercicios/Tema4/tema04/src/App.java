@@ -32,9 +32,9 @@ public class App {
         }
 
         // switch
-        String estacion = "invierno";
+        String estacion = "Invierno";
         switch (estacion) {
-            case "primaver":
+            case "Primavera":
                 System.out.println("Primavera");
                 break;
             case "Otoño":
@@ -43,8 +43,11 @@ public class App {
             case "Invierno":
                 System.out.println("Invierno");
                 break;
-            default:
+            case "Verano":
                 System.out.println("Verano");
+                break;
+            default:
+                System.out.println("No es estacion");
                 break;
         }
     }
